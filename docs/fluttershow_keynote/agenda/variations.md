@@ -17,12 +17,12 @@ KeynoteAgendaSlideVariants.variantOne(
 
 ```dart
 KeynoteAgendaSlide variantOne({
-  required String titleText,
-  required String subTitleText,
-  Widget? footerWidget,
-  int? animationIndex,
-  AnimationArguments? animationArguments,
-}) =>
+    required String titleText,
+    required String subTitleText,
+    Widget? footerWidget,
+    int? animationIndex,
+    AnimationArguments? animationArguments,
+  }) =>
       KeynoteAgendaSlide(
         titleText: titleText,
         subTitleText: subTitleText,
