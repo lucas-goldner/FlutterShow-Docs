@@ -8,7 +8,7 @@ Unleash your creativity with presentations like never before! FlutterShow⚡️ 
 
 Check out the full documentation showcasing all slides here: 🚧 Coming soon...🚧
 
-![Showcase](../static/img/showcase.png)
+![Showcase](./fluttershow_base/img/showcase.png)
 
 ## General Information
 
@@ -40,7 +40,7 @@ $ flutter run -d macos
 
 The **Menu** _(Open using M key)_: Toggle dark/light mode depending on the location you are presenting at or quickly jump between your slides.
 
-![Menu](../static/img/menu.png)
+![Menu](./fluttershow_base/img/menu.png)
 
 ### Animations
 

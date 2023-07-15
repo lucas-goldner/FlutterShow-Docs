@@ -42,7 +42,7 @@ class CreditsSlide extends ConsumerWidget {
 
 **🎉 Tada you made your first slide 🎉**
 
-![Showcase](../static/img/quickstart/credits_slide.png)
+![Showcase](./fluttershow_base/img/credits_slide.png)
 
 ## Adding the slide into the project
 
