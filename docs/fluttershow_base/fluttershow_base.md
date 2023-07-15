@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# FlutterShow Base
+# Introduction
 
 [![pub package](https://img.shields.io/pub/v/fluttershow_base.svg)](https://pub.dev/packages/fluttershow_base)
 [![pub points](https://img.shields.io/pub/points/fluttershow_base?color=2E8B57&label=pub%20points)](https://pub.dev/packages/fluttershow_base/score)

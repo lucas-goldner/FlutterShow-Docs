@@ -71,10 +71,9 @@ const config = {
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
             position: "left",
             label: "Quick Start",
+            to: "/docs/quick-start",
           },
           { to: "/docs/intro", label: "Docs", position: "left" },
           {
