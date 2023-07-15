@@ -76,15 +76,16 @@ const config = {
             position: "left",
             label: "Quick Start",
           },
-          { to: "/blog", label: "Components", position: "left" },
+          { to: "/docs/intro", label: "Docs", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/lucas-goldner/FlutterShow-Docs",
             label: "GitHub",
             position: "right",
           },
         ],
       },
       prism: {
+        additionalLanguages: ["dart"],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
