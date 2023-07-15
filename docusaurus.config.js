@@ -67,7 +67,7 @@ const config = {
         title: "FlutterShow Docs",
         logo: {
           alt: "FlutterShow Docs Logo",
-          src: "img/logo.svg",
+          src: "img/thunder.svg",
         },
         items: [
           {
