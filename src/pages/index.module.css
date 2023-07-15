@@ -23,7 +23,26 @@
 }
 
 .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.mobileExplain {
+  visibility: visible;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .center {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+  }
+
+  .mobileExplain {
+    visibility: hidden;
+    padding: 0rem;
+  }
 }

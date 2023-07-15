@@ -29,7 +29,6 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <HelmetProvider context={helmetContext}>
       <Helmet>
@@ -41,11 +40,17 @@ export default function Home(): JSX.Element {
         description="Description will go into a meta tag in <head />"
       >
         <HomepageHeader />
+        <p className={styles.mobileExplain}>
+          To see a live demo of a presentation visit the desktop version of this
+          website
+        </p>
         <main className={styles.center}>
           <div
             style={{
-              height: 500,
-              width: 600,
+              height: 720,
+              width: 1152,
+              marginTop: "5rem",
+              marginBottom: "20rem",
               overflow: "hidden",
             }}
             id="flutter_target"
