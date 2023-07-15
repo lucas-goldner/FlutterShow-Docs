@@ -4,7 +4,7 @@
 
 ### Preview
 
-![Agenda Variation 1](../img/big_fact_one.png)
+![Big Fact Variation 1](../img/big_fact_one.png)
 
 ```dart
 KeynoteBigFactSlideVariants.variantOne(
@@ -39,7 +39,7 @@ KeynoteBigFactSlide variantOne({
 
 ### Preview
 
-![Agenda Variation 1](../img/big_fact_two.png)
+![Big Fact Variation 2](../img/big_fact_two.png)
 
 ```dart
 KeynoteBigFactSlideVariants.variantTwo(

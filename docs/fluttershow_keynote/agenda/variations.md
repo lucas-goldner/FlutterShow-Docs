@@ -40,7 +40,7 @@ KeynoteAgendaSlide variantOne({
 
 ### Preview
 
-![Agenda Variation 1](../img/agenda_two.png)
+![Agenda Variation 2](../img/agenda_two.png)
 
 ```dart
 KeynoteAgendaSlideVariants.variantTwo(

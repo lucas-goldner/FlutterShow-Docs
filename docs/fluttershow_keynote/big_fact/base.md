@@ -2,7 +2,7 @@
 
 ## Example
 
-![Agenda base slide](../img/big_fact_base.png)
+![Big fact slide](../img/big_fact_base.png)
 
 ```dart
 KeynoteBigFactSlide(
