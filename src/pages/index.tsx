@@ -3,8 +3,10 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-
 import styles from "./index.module.css";
+import { Helmet, HelmetProvider } from "react-helmet-async";
+
+const helmetContext = {};
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -29,12 +31,27 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Presentations made in Flutter`}
-      description="Description will go into a meta tag in <head />"
-    >
-      <HomepageHeader />
-      <main></main>
-    </Layout>
+    <HelmetProvider context={helmetContext}>
+      <Helmet>
+        <script src="/flutter/flutter.js" defer></script>
+        <script src="/flutter_init.js" defer></script>
+      </Helmet>
+      <Layout
+        title={`Presentations made in Flutter`}
+        description="Description will go into a meta tag in <head />"
+      >
+        <HomepageHeader />
+        <main className={styles.center}>
+          <div
+            style={{
+              height: 500,
+              width: 600,
+              overflow: "hidden",
+            }}
+            id="flutter_target"
+          ></div>
+        </main>
+      </Layout>
+    </HelmetProvider>
   );
 }
