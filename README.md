@@ -6,7 +6,7 @@ It also describes how FlutterShow is intended to be used and has a tutorial and 
 And it is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator,
 because I wanted to try that out for a long time now and this project actually could use good documentation.
 
-Interestingly enough I also used Flutter Element Embedding here to showcase my project so that was also something I learned through this project.
+Interestingly enough, I also used Flutter Element Embedding here to showcase a demo presentation so that was also something I learned through this project.
 
 ### Installation
 
