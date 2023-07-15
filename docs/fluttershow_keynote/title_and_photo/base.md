@@ -2,7 +2,7 @@
 
 ## Example
 
-![Title and Bullets slide](../img/title_and_bullets_base.png)
+![Title and Photo slide](../img/title_and_photo_base.png)
 
 ```dart
 KeynoteTitleAndPhotoSlide(

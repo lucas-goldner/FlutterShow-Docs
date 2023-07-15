@@ -4,7 +4,7 @@
 
 ### Preview
 
-![Title and Bullets Variation 1](../img/title_and_bullets_one.png)
+![Title and Photo Variation 1](../img/title_and_photo_one.png)
 
 ```dart
 KeynoteTitleAndPhotoSlideVariants.variantOne(
@@ -55,7 +55,7 @@ KeynoteTitleAndPhotoSlide variantOne({
 
 ### Preview
 
-![Title and Bullets Variation 2](../img/title_and_bullets_two.png)
+![Title and Photo Variation 2](../img/title_and_photo_two.png)
 
 ```dart
 KeynoteTitleAndPhotoSlideVariants.variantTwo(
