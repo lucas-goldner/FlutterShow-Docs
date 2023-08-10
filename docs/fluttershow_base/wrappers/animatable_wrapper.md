@@ -15,6 +15,13 @@ const AnimatableWrapper(
 })
 ```
 
+Properties:
+
+- `child` (required): The widget to be wrapped and potentially animated.
+- `animationArguments`: The optional animation arguments for the child animation.
+- `animationIndex`: The optional index at which the animation should start.
+- `indexToShowAt`: The optional index at which the child should become visible. This is required if [animationIndex] is set.
+
 Example:
 
 ```dart

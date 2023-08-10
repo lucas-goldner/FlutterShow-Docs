@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Changelog
+# Changelog 📄
 
 ## Release 1.1:
 
