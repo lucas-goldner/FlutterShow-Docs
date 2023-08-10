@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# QuickStart
+# QuickStart 🔥
 
 Let's **add a new slide** to FlutterShow.
 
