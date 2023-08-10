@@ -30,6 +30,8 @@ CodeDisplay(
 })
 ```
 
+Properties:
+
 - `code` (required): The code to be displayed.
 - `showCopyButton`: Determines if the copy for code button should be shown.
 - `copyButtonReplacement`: If `showCopyButton` is set, by default an elevated button will be shown. To provide a custom copy button, this property can be used.

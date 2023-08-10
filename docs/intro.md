@@ -71,7 +71,7 @@ The **Menu** _(Open using **M key**)_: Toggle dark/light mode depending on the l
 ### Animations
 
 Most slides and prebuilt widgets can be animated for a smoother experience. Simply pass an `animationIndex` parameter to enable animation on the desired slide or widget.
-In addition to animating individual slides and widgets, you can also animate the transitions between slides. An example of slide transition animation can be found in [`lib/slides/03_motivation/view/motivation.dart`](lib/slides/03_motivation/view/motivation.dart) file.
+In addition to animating individual slides and widgets, you can also animate the transitions between slides. An example of slide transition animation can be found in [`lib/slides/03_motivation/view/motivation.dart`](https://github.com/lucas-goldner/FlutterShow/tree/main/lib/slides/03_motivation/view/motivation.dart) file.
 
 ### Code Display
 
@@ -81,7 +81,7 @@ Use the `Code Display` to present your beautiful code:
 
 ### Rebindable Keys
 
-You can easily rebind your keys for actions like navigating to the next or previous slide and opening the menu. Simply edit the actions in [`lib/presentation/config/key_actions.dart`](lib/presentation/config/key_actions.dart).
+You can easily rebind your keys for actions like navigating to the next or previous slide and opening the menu. Simply edit the actions in [`lib/presentation/config/key_actions.dart`](https://github.com/lucas-goldner/FlutterShow/tree/main/lib/presentation/config/key_actions.dart).
 
 ### Toggle Cursor
 
