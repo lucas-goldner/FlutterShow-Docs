@@ -16,28 +16,43 @@ KeynoteTitleOnlySlideVariants.variantOne(
 ### Constructor
 
 ```dart
-KeynoteTitleBulletAndPhotoSlide variantOne({
+  KeynoteTitleOnlySlide variantOne({
     required String titleText,
     required String subTitleText,
-    required Widget image,
-    required List<String> bulletPoints,
     int? animationIndex,
     AnimationArguments? animationArguments,
-  }) =>
-      KeynoteTitleBulletAndPhotoSlide(
-        image: image,
-        titleText: titleText,
-        subTitleText: subTitleText,
-        titleStyle: KeynoteTextstyles.titleSmall(),
-        subtitleStyle: KeynoteTextstyles.subtitleSmall(),
-        bulletTextStyle: KeynoteTextstyles.body(),
-        bulletPoints: bulletPoints,
-        bulletPointsPadding: horizontalPadding48 + horizontalPadding48,
-        titleAlignment: Alignment.bottomCenter,
-        subtitleAlignment: Alignment.topCenter,
-        animationIndex: animationIndex,
-        animationArguments: animationArguments,
-      )
+    TextStyle? titleStyle,
+    TextStyle? subtitleStyle,
+    Alignment? titleAlignment,
+    Alignment? subtitleAlignment,
+    TextAlign? titleTextAlignment,
+    TextAlign? subtitleTextAlignment,
+    Widget? titleSubTitleSpacing,
+    EdgeInsets? padding,
+    int? headerFlexUnits,
+    int? bodyFlexUnits,
+    Widget? titleWidgetReplacement,
+    Widget? subtitleWidgetReplacement,
+  }) {
+    return KeynoteTitleOnlySlide(
+      titleText: titleText,
+      subTitleText: subTitleText,
+      titleStyle: titleStyle ?? KeynoteTextstyles.titleSmall(),
+      subtitleStyle: subtitleStyle ?? KeynoteTextstyles.subtitleSmall(),
+      titleAlignment: titleAlignment ?? Alignment.bottomCenter,
+      subtitleAlignment: subtitleAlignment ?? Alignment.topCenter,
+      titleTextAlignment: titleTextAlignment,
+      subtitleTextAlignment: subtitleTextAlignment,
+      titleSubTitleSpacing: titleSubTitleSpacing,
+      padding: padding,
+      headerFlexUnits: headerFlexUnits,
+      bodyFlexUnits: bodyFlexUnits,
+      titleWidgetReplacement: titleWidgetReplacement,
+      subtitleWidgetReplacement: subtitleWidgetReplacement,
+      animationIndex: animationIndex,
+      animationArguments: animationArguments,
+    );
+  }
 ```
 
 ## Variation 2
@@ -56,26 +71,41 @@ KeynoteTitleOnlySlideVariants.variantTwo(
 ### Constructor
 
 ```dart
-KeynoteTitleBulletAndPhotoSlide variantTwo({
+  KeynoteTitleOnlySlide variantTwo({
     required String titleText,
     required String subTitleText,
-    required Widget image,
-    required List<String> bulletPoints,
     int? animationIndex,
     AnimationArguments? animationArguments,
-  }) =>
-      KeynoteTitleBulletAndPhotoSlide(
-        image: image,
-        titleText: titleText,
-        subTitleText: subTitleText,
-        bulletPoints: bulletPoints,
-        titleAlignment: Alignment.bottomLeft,
-        subtitleAlignment: Alignment.topLeft,
-        padding: allPadding48,
-        titleStyle: KeynoteTextstyles.titleSmall(),
-        subtitleStyle: KeynoteTextstyles.subtitle(),
-        bulletTextStyle: KeynoteTextstyles.body(),
-        animationIndex: animationIndex,
-        animationArguments: animationArguments,
-      )
+    TextStyle? titleStyle,
+    TextStyle? subtitleStyle,
+    Alignment? titleAlignment,
+    Alignment? subtitleAlignment,
+    TextAlign? titleTextAlignment,
+    TextAlign? subtitleTextAlignment,
+    Widget? titleSubTitleSpacing,
+    EdgeInsets? padding,
+    int? headerFlexUnits,
+    int? bodyFlexUnits,
+    Widget? titleWidgetReplacement,
+    Widget? subtitleWidgetReplacement,
+  }) {
+    return KeynoteTitleOnlySlide(
+      titleText: titleText,
+      subTitleText: subTitleText,
+      titleStyle: titleStyle ?? KeynoteTextstyles.titleSmall(),
+      subtitleStyle: subtitleStyle ?? KeynoteTextstyles.subtitleSmall(),
+      titleAlignment: titleAlignment ?? Alignment.bottomLeft,
+      subtitleAlignment: subtitleAlignment ?? Alignment.topLeft,
+      titleTextAlignment: titleTextAlignment,
+      subtitleTextAlignment: subtitleTextAlignment,
+      titleSubTitleSpacing: titleSubTitleSpacing,
+      padding: padding,
+      headerFlexUnits: headerFlexUnits,
+      bodyFlexUnits: bodyFlexUnits,
+      titleWidgetReplacement: titleWidgetReplacement,
+      subtitleWidgetReplacement: subtitleWidgetReplacement,
+      animationIndex: animationIndex,
+      animationArguments: animationArguments,
+    );
+  }
 ```

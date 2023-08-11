@@ -23,6 +23,8 @@ The `KeynoteTitleOnlySlide` widget represents a title-only slide from Keynote. I
 - `subtitleStyle`: The style applied to the subtitle text. If not provided, the default style is used.
 - `titleAlignment`: The alignment of the title text within its container. If not provided, the default alignment is used.
 - `subtitleAlignment`: The alignment of the subtitle text within its container. If not provided, the default alignment is used.
+- `titleTextAlignment`: The text alignment for the slide title.
+- `subtitleTextAlignment`: The text alignment for the slide subtitle.
 - `titleSubTitleSpacing`: The spacing widget placed between the title and subtitle. If not provided, the default spacing is used.
 - `padding`: The padding applied to the slide's content. If not provided, the default padding is used.
 - `headerFlexUnits`: The number of flex units for the header section. If not provided, the default number of units is used.

@@ -30,6 +30,9 @@ The `KeynoteTitleSlide` widget represents a title slide from Keynote. It consist
 - `titleAlignment`: The alignment of the title text within the slide.
 - `subtitleAlignment`: The alignment of the subtitle text within the slide.
 - `footerAlignment`: The alignment of the footer text within the slide.
+- `titleTextAlignment`: The text alignment for the slide title.
+- `subtitleTextAlignment`: The text alignment for the slide subtitle.
+- `footerTextAlignment`: The text alignment for the slide footer.
 - `titleSubTitleSpacing`: A widget that provides spacing between the title and subtitle.
 - `footerBottomSpacing`: A widget that provides spacing below the footer text.
 - `padding`: The padding around the slide content.

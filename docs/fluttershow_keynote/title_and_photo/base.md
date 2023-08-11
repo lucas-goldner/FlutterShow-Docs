@@ -37,6 +37,9 @@ The `KeynoteTitleAndPhotoSlide` widget represents a title and photo slide from K
 - `titleAlignment`: The alignment of the title within the slide.
 - `subtitleAlignment`: The alignment of the subtitle within the slide.
 - `headingAlignment`: The alignment of the heading within the slide.
+- `titleTextAlignment`: The text alignment for the slide title.
+- `subtitleTextAlignment`: The text alignment for the slide subtitle.
+- `headingTextAlignment`: The text alignment for the slide heading.
 - `titleSubTitleSpacing`: A widget used to add spacing between the title and subtitle.
 - `headingBottomSpacing`: A widget used to add spacing at the bottom of the heading.
 - `padding`: The padding around the slide.

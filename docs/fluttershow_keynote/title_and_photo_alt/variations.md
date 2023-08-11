@@ -24,22 +24,43 @@ KeynoteTitleAndPhotoAltSlideVariants.variantOne(
 ### Constructor
 
 ```dart
-KeynoteTitleAndPhotoAltSlide variantOne({
+  KeynoteTitleAndPhotoAltSlide variantOne({
     required String titleText,
     required String subTitleText,
     required Widget image,
+    TextStyle? titleStyle,
+    TextStyle? subtitleStyle,
+    Alignment? titleAlignment,
+    Alignment? subtitleAlignment,
+    TextAlign? titleTextAlignment,
+    TextAlign? subtitleTextAlignment,
+    EdgeInsets? padding,
+    Widget? titleSubTitleSpacing,
+    Widget? titleWidgetReplacement,
+    Widget? subtitleWidgetReplacement,
+    Widget? imageWidgetReplacement,
     int? animationIndex,
     AnimationArguments? animationArguments,
-  }) =>
-      KeynoteTitleAndPhotoAltSlide(
-        image: image,
-        titleText: titleText,
-        subTitleText: subTitleText,
-        titleStyle: KeynoteTextstyles.titleSmall(),
-        subtitleStyle: KeynoteTextstyles.subtitle(),
-        animationIndex: animationIndex,
-        animationArguments: animationArguments,
-      )
+  }) {
+    return KeynoteTitleAndPhotoAltSlide(
+      image: image,
+      titleText: titleText,
+      subTitleText: subTitleText,
+      titleStyle: titleStyle ?? KeynoteTextstyles.titleSmall(),
+      subtitleStyle: subtitleStyle ?? KeynoteTextstyles.subtitle(),
+      titleAlignment: titleAlignment,
+      subtitleAlignment: subtitleAlignment,
+      titleTextAlignment: titleTextAlignment,
+      subtitleTextAlignment: subtitleTextAlignment,
+      padding: padding,
+      titleSubTitleSpacing: titleSubTitleSpacing,
+      titleWidgetReplacement: titleWidgetReplacement,
+      subtitleWidgetReplacement: subtitleWidgetReplacement,
+      imageWidgetReplacement: imageWidgetReplacement,
+      animationIndex: animationIndex,
+      animationArguments: animationArguments,
+    );
+  }
 ```
 
 ## Variation 2
@@ -64,23 +85,41 @@ KeynoteTitleAndPhotoAltSlideVariants.variantTwo(
 ### Constructor
 
 ```dart
-KeynoteTitleAndPhotoAltSlide variantTwo({
+  KeynoteTitleAndPhotoAltSlide variantTwo({
     required String titleText,
     required String subTitleText,
     required Widget image,
     int? animationIndex,
     AnimationArguments? animationArguments,
-  }) =>
-      KeynoteTitleAndPhotoAltSlide(
-        image: image,
-        titleText: titleText,
-        subTitleText: subTitleText,
-        titleAlignment: Alignment.bottomLeft,
-        subtitleAlignment: Alignment.topLeft,
-        padding: allPadding48,
-        titleStyle: KeynoteTextstyles.titleSmall(),
-        subtitleStyle: KeynoteTextstyles.subtitle(),
-        animationIndex: animationIndex,
-        animationArguments: animationArguments,
-      )
+    TextStyle? titleStyle,
+    TextStyle? subtitleStyle,
+    Alignment? titleAlignment,
+    Alignment? subtitleAlignment,
+    TextAlign? titleTextAlignment,
+    TextAlign? subtitleTextAlignment,
+    EdgeInsets? padding,
+    Widget? titleSubTitleSpacing,
+    Widget? titleWidgetReplacement,
+    Widget? subtitleWidgetReplacement,
+    Widget? imageWidgetReplacement,
+  }) {
+    return KeynoteTitleAndPhotoAltSlide(
+      image: image,
+      titleText: titleText,
+      subTitleText: subTitleText,
+      titleStyle: titleStyle ?? KeynoteTextstyles.titleSmall(),
+      subtitleStyle: subtitleStyle ?? KeynoteTextstyles.subtitle(),
+      titleAlignment: titleAlignment ?? Alignment.bottomLeft,
+      subtitleAlignment: subtitleAlignment ?? Alignment.topLeft,
+      titleTextAlignment: titleTextAlignment,
+      subtitleTextAlignment: subtitleTextAlignment,
+      padding: padding,
+      titleSubTitleSpacing: titleSubTitleSpacing,
+      titleWidgetReplacement: titleWidgetReplacement,
+      subtitleWidgetReplacement: subtitleWidgetReplacement,
+      imageWidgetReplacement: imageWidgetReplacement,
+      animationIndex: animationIndex,
+      animationArguments: animationArguments,
+    );
+  }
 ```
