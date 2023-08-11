@@ -30,6 +30,8 @@ The `KeynoteBigFactSlide` widget provides several properties to customize its ap
 - `subtitleStyle`: The style for the slide subtitle.
 - `titleAlignment`: The alignment for the slide title.
 - `subtitleAlignment`: The alignment for the slide subtitle.
+- `titleTextAlignment`: The text alignment for the slide title.
+- `subtitleTextAlignment`: The text alignment for the slide subtitle.
 - `titleSubTitleSpacing`: The widget to provide spacing between the title and subtitle.
 - `padding`: The padding for the slide.
 - `headerFlexUnits`: The flex units for the header section.

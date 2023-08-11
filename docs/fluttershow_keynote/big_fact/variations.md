@@ -17,22 +17,45 @@ KeynoteBigFactSlideVariants.variantOne(
 ### Constructor
 
 ```dart
-KeynoteBigFactSlide variantOne({
+  KeynoteBigFactSlide variantOne({
     required String titleText,
     required String subTitleText,
-    required Gradient gradient,
+    required Gradient titleGradient,
+    TextStyle? titleStyle,
+    TextStyle? subtitleStyle,
+    Alignment? titleAlignment,
+    Alignment? subtitleAlignment,
+    TextAlign? titleTextAlignment,
+    TextAlign? subtitleTextAlignment,
+    Widget? titleSubTitleSpacing,
+    EdgeInsets? padding,
+    int? headerFlexUnits,
+    int? bodyFlexUnits,
+    Widget? titleWidgetReplacement,
+    Widget? subtitleWidgetReplacement,
     int? animationIndex,
     AnimationArguments? animationArguments,
-  }) =>
-      KeynoteBigFactSlide(
-        titleText: titleText,
-        subTitleText: subTitleText,
-        titleGradient: gradient,
-        titleStyle: KeynoteTextstyles.fact(),
-        subtitleStyle: KeynoteTextstyles.subtitle(),
-        animationIndex: animationIndex,
-        animationArguments: animationArguments,
-      )
+  }) {
+    return KeynoteBigFactSlide(
+      titleText: titleText,
+      subTitleText: subTitleText,
+      titleGradient: titleGradient,
+      titleStyle: titleStyle ?? KeynoteTextstyles.fact(),
+      subtitleStyle: subtitleStyle ?? KeynoteTextstyles.subtitle(),
+      titleAlignment: titleAlignment,
+      subtitleAlignment: subtitleAlignment,
+      titleTextAlignment: titleTextAlignment,
+      subtitleTextAlignment: subtitleTextAlignment,
+      titleSubTitleSpacing: titleSubTitleSpacing,
+      padding: padding,
+      headerFlexUnits: headerFlexUnits,
+      bodyFlexUnits: bodyFlexUnits,
+      titleWidgetReplacement: titleWidgetReplacement,
+      subtitleWidgetReplacement: subtitleWidgetReplacement,
+      animationIndex: animationIndex,
+      animationArguments: animationArguments,
+    );
+  }
 ```
 
 ## Variation 2
@@ -51,18 +74,42 @@ KeynoteBigFactSlideVariants.variantTwo(
 ### Constructor
 
 ```dart
-KeynoteBigFactSlide variantTwo({
+  KeynoteBigFactSlide variantTwo({
     required String titleText,
     required String subTitleText,
+    TextStyle? titleStyle,
+    TextStyle? subtitleStyle,
+    Alignment? titleAlignment,
+    Alignment? subtitleAlignment,
+    TextAlign? titleTextAlignment,
+    TextAlign? subtitleTextAlignment,
+    Widget? titleSubTitleSpacing,
+    EdgeInsets? padding,
+    int? headerFlexUnits,
+    int? bodyFlexUnits,
+    Widget? titleWidgetReplacement,
+    Widget? subtitleWidgetReplacement,
     int? animationIndex,
     AnimationArguments? animationArguments,
-  }) =>
-      KeynoteBigFactSlide(
-        titleText: titleText,
-        subTitleText: subTitleText,
-        titleStyle: KeynoteTextstyles.fact(variant: Variants.two),
-        subtitleStyle: KeynoteTextstyles.subtitle(variant: Variants.two),
-        animationIndex: animationIndex,
-        animationArguments: animationArguments,
-      )
+  }) {
+    return KeynoteBigFactSlide(
+      titleText: titleText,
+      subTitleText: subTitleText,
+      titleStyle: titleStyle ?? KeynoteTextstyles.fact(variant: Variants.two),
+      subtitleStyle:
+          subtitleStyle ?? KeynoteTextstyles.subtitle(variant: Variants.two),
+      titleAlignment: titleAlignment,
+      subtitleAlignment: subtitleAlignment,
+      titleTextAlignment: titleTextAlignment,
+      subtitleTextAlignment: subtitleTextAlignment,
+      titleSubTitleSpacing: titleSubTitleSpacing,
+      padding: padding,
+      headerFlexUnits: headerFlexUnits,
+      bodyFlexUnits: bodyFlexUnits,
+      titleWidgetReplacement: titleWidgetReplacement,
+      subtitleWidgetReplacement: subtitleWidgetReplacement,
+      animationIndex: animationIndex,
+      animationArguments: animationArguments,
+    );
+  }
 ```

@@ -27,6 +27,8 @@ The `KeynoteTitleAndBulletsSlide` widget represents a title and bullets slide fr
 - `titleStyle`: The style for the title text.
 - `subtitleStyle`: The style for the subtitle text.
 - `bulletPointsAlignment`: The alignment of the bullet points.
+- `titleTextAlignment`: The text alignment of the slide title.
+- `subtitleTextAlignment`: The text alignment of the slide subtitle.
 - `bulletTextAlignment`: The alignment of the bullet text.
 - `titleAlignment`: The alignment of the title.
 - `subtitleAlignment`: The alignment of the subtitle.

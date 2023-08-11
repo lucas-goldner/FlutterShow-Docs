@@ -14,7 +14,7 @@ Check package out on: [Pub.dev](https://pub.dev/packages/fluttershow_keynote)
 Introducing FlutterShow Keynote a library that implements all slides of the popular Keynote software
 in Flutter. Designed specifically for the FlutterShow project: https://github.com/lucas-goldner/FlutterShow.
 
-## Variants Version (Quick)
+## Variants Version (Quick prebuilt styles)
 
 The Variants version of FlutterShow Keynote is perfect for quickly building slides with predefined variations. It provides a set of prebuilt slides with styles that can be easily customized and combined to create visually appealing and dynamic slides. This version is ideal if you want to quickly build simple slides.
 
@@ -24,4 +24,4 @@ There are two variants, variant one is based on the Colour Gradient slide and th
 
 ## Base Version (Very customizable)
 
-On the other hand, the Base version of FlutterShow Keynote offers a more extensive range of customization options. It includes a comprehensive set of prebuilt widgets that can be used as a foundation for building fully customized slides. With the Base version, you have more control over the design and behavior of their slides, allowing for greater flexibility and creativity.
+Unlike the Variants version, the Base version slides in FlutterShow Keynote are like blank canvases, waiting for your creative touch. These slides don't come with predefined styles, giving you complete control. Use it to craft slides that perfectly align with your desired aesthetics and functionality, unbounded by preset designs.
