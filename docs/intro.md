@@ -89,13 +89,6 @@ Using the **O key** the mouse cursor can be hidden or shown again. Optionally it
 
 ![Custom Cursor](./img/custom_cursor.png)
 
-## Talks using FlutterShow⚡️
-
-| Talk                                             | Speaker                                           | Link                                                                                           | Version used |
-| :----------------------------------------------- | :------------------------------------------------ | :--------------------------------------------------------------------------------------------- | :----------- |
-| Comparing ways of accessing native functionality | [Lucas Goldner](https://twitter.com/LucasGoldner) | [Watch](https://www.droidcon.com/2023/08/07/comparing-ways-of-accessing-native-functionality/) | Beta         |
-| Introdução ao Flutter                            | [Jessica Pereira](https://twitter.com/Jeeh__XuXu) | [Watch](https://www.youtube.com/live/9GLDOE9SDrM?feature=share&t=551)                          | 1.0          |
-
 ## Project Structure
 
 Remember **FlutterShow⚡️** can be adjusted to your preferences, but this is the basic structure that was intended:
