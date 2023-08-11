@@ -8,16 +8,17 @@ sidebar_position: 5
 
 ### FlutterShow⚡️:
 
-- General:
+#### General:
 
-  - Refactor presentation slides widget
-  - Add more tests to ensure presentation controller provider works as intended
+- Refactor presentation slides widget
+- Add more tests to ensure presentation controller provider works as intended
 
-- Menu:
-  - Add locale switcher
-  - Change cursor style: Basic, Hidden and Custom
-  - Add hotkey to toggle cursor visibility. _(Use the O key!)_
-  - Update style of menu widgets
+#### Menu:
+
+- Add locale switcher
+- Change cursor style: Basic, Hidden and Custom
+- Add hotkey to toggle cursor visibility. _(Use the O key!)_
+- Update style of menu widgets
 
 ### FlutterShow Base (1.1.1):
 
