@@ -16,8 +16,8 @@ for crafting engaging and interactive presentations.
 
 ### Usage
 
-Feel free to either **fork** or **clone** the repo, whatever you prefer.
-Select branch `main` for latest stable version.
+Feel free to either **fork** or **clone** the repo, whatever you prefer.<br/>
+Select branch `main` for latest stable version.<br/>
 Select latest release branch `release/1.2.0` for newest features.
 
 ### Running FlutterShow⚡️
@@ -77,7 +77,7 @@ In addition to animating individual slides and widgets, you can also animate the
 
 Use the `Code Display` to present your beautiful code:
 
-<img src='./img/code_display.png' alt="Code Display" width='500'/>
+![Custom Cursor](./img/code_display.png)
 
 ### Rebindable Keys
 
