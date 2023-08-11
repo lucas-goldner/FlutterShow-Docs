@@ -73,7 +73,7 @@ const config = {
           {
             position: "left",
             label: "Quick Start",
-            to: "/docs/quick-start",
+            to: "/docs/quick_start",
           },
           { to: "/docs/intro", label: "Docs", position: "left" },
           {

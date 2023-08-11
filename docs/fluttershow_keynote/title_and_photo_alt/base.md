@@ -32,6 +32,8 @@ The `KeynoteTitleAndPhotoAltSlide` widget represents a title and photo alt slide
 - `subtitleStyle`: The style for the subtitle text.
 - `titleAlignment`: The alignment of the title within the slide.
 - `subtitleAlignment`: The alignment of the subtitle within the slide.
+- `titleTextAlignment`: The text alignment of the title within the slide.
+- `subtitleTextAlignment`: The text alignment of the subtitle within the slide.
 - `padding`: The padding around the slide.
 - `titleSubTitleSpacing`: The spacing between the title and subtitle.
 - `titleWidgetReplacement`: A custom widget that replaces the default title widget.

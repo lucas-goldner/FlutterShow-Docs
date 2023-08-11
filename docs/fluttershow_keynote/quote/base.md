@@ -23,6 +23,8 @@ The `KeynoteQuoteSlide` widget provides several properties to customize its appe
 - `quoteStyle`: The optional style for the quote text.
 - `attributionStyle`: The optional style for the attribution text.
 - `quoteAlignment`: The optional alignment for the quote text.
+- `quoteTextAlignment`: The text alignment for the slide quote.
+- `attributionTextAlignment`: The text alignment for the slide attribution.
 - `attributionAlignment`: The optional alignment for the attribution text.
 - `quoteAttributionSpacing`: The optional spacing widget between the quote and attribution.
 - `padding`: The optional padding around the slide.

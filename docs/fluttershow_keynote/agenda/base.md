@@ -35,6 +35,8 @@ The `KeynoteAgendaSlide` widget provides several properties to customize its app
 - `titleAlignment`: The alignment for the slide title.
 - `subtitleAlignment`: The alignment for the slide subtitle.
 - `footerAlignment`: The alignment for the slide footer.
+- `titleTextAlignment`: The text alignment for the slide title.
+- `subtitleTextAlignment`: The text alignment for the slide subtitle.
 - `titleSubTitleSpacing`: The widget to specify spacing between the title and subtitle.
 - `subtitleFooterSpacing`: The widget to specify spacing between the subtitle and footer.
 - `padding`: The padding for the slide.
